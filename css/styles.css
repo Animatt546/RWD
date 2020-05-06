@@ -1,0 +1,90 @@
+.poster > img {
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu{
+    margin: 6px;
+}
+
+.poster{
+    box-shadow: 0.1rem 0.1rem 1rem #aaa;
+    margin-top: 2rem;
+}
+.logo{
+    text-align: center;
+}
+figcaption{
+    padding: 4px;
+}
+
+.bg-dribbble {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -10px -10px;
+    margin: 2px;
+}
+
+.bg-dribbble:hover {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -78px -10px;
+    margin: 2px;
+}
+
+.bg-facebook {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -10px -78px;
+    margin: 2px;
+}
+
+.bg-facebook:hover {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -78px -78px;
+    margin: 2px;
+}
+
+.bg-Twitter {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -146px -10px;
+    margin: 2px;
+}
+
+.bg-Twitter:hover {
+    width: 48px; height: 48px;
+    background: url('../images/css_sprites.png') -146px -78px;
+    margin: 2px;
+}
+
+.menu label{
+    font-size: medium;
+}
+
+.wyrownanie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social > p{
+    text-align: center;
+    margin: 6px;
+}
+.stopka{
+    margin-top: 2rem;
+}
+.kontakty{
+    list-style-type:none;
+    text-align: center;
+}
