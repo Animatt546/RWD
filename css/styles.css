@@ -9,6 +9,7 @@ figure {
 .menu{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu > div {
@@ -28,7 +29,8 @@ figure {
     text-align: center;
 }
 figcaption{
-    padding: 4px;
+    padding: 1rem;
+    text-align: center;
 }
 
 .bg-dribbble {
@@ -83,8 +85,17 @@ figcaption{
 }
 .stopka{
     margin-top: 2rem;
+    padding-top: 2rem;
 }
 .kontakty{
     list-style-type:none;
     text-align: center;
 }
+.odstep {
+    width: 85% !important;
+    padding: 2rem 2rem 0rem 2rem;
+}
+p{
+    margin-bottom: 0px;
+}
+
