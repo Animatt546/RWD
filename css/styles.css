@@ -5,7 +5,12 @@
 figure {
     margin: 0;
 }
-
+p,h1,h4,label,li{
+    color:white;
+}
+*{
+    background-color: #181a1b;
+}
 .menu{
     display: flex;
     justify-content: space-between;
@@ -98,4 +103,10 @@ figcaption{
 p{
     margin-bottom: 0px;
 }
-
+.hidden{
+    display: none;
+}
+footer{
+    box-shadow: 0.1rem 0.1rem 1rem #aaa;
+    margin-top: 2rem;
+}
